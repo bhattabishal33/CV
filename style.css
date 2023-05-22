@@ -1,3 +1,98 @@
-body{
-    border: 5px solid blue;
-}
+* {
+    background-color: lavender;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+  }
+  #content {
+    border: 10px solid blue;
+    width: 50vw;
+  }
+  #personal,
+  #careerobjective,
+  #Education {
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 25px;
+  }
+  #namedata {
+    display: flex;
+  }
+  #left {
+    width: 50%;
+  }
+  #right {
+    width: 50%;
+  }
+  #careerobjective #headin,
+  #Education #headin,
+  #Skills #headin {
+    border-bottom: 2px solid blue;
+    color: darkblue;
+  }
+  .cir {
+    border: 2px solid black;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+  }
+  #c1 {
+    display: flex;
+  }
+  #contentskl {
+    display: flex;
+    justify-content: center;
+    margin-left: 5rem;
+    margin-top: 0.3rem;
+    margin-right: 5rem;
+  }
+  #cir1,
+  #cir2,
+  #cir3,
+  #cir4,
+  #cir5 {
+    margin-right: 0.3rem;
+  }
+  #cir1,
+  #cir2,
+  #cir3 {
+    background-color: black;
+  }
+  #c2 {
+    display: flex;
+  }
+  #cif {
+    display: flex;
+    margin-left: 5rem;
+    margin-top: 0.3rem;
+    margin-right: 5rem;
+  }
+  #list ul {
+    display: flex;
+  }
+  #list ul li {
+    margin-right: 10rem;
+  }
+  #contentforp {
+    display: flex;
+  }
+  #contentforp #p1 {
+    width: 40%;
+  }
+  #contentforp #p2 {
+    width: 60%;
+  }
+  #na1 {
+    display: flex;
+  }
+  #na1 img {
+    border: 2px solid black;
+  }
+  #na1 h6 {
+    transform: translate(12px, -20px);
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }

@@ -1,0 +1,23 @@
+@media screen and (max-width:1010px){
+    #namedata{
+        flex-direction: column;
+    }
+    #c1 {
+        flex-direction: column;
+      }
+      #list ul {
+        flex-direction:column;
+      }
+      #contentforp {
+        flex-direction: column;
+      }
+      #na1 h6 {
+        transform: translate(0px, -20px);
+      }
+      #contentforp #p1 {
+        width: 100%;
+      }
+      #contentforp #p2 {
+        width: 100%;
+      }
+}
