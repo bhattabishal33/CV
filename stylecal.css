@@ -8,6 +8,9 @@ table{
     background-size:cover ;
 
 }
+th{
+    background-color: rgba(0,0,0,0.5);
+}
 .name{
     font-size: 2rem;
 }
